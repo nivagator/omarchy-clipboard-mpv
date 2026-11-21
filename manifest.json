@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "nivagator.clipboard-mpv",
+  "name": "Clipboard MPV",
+  "version": "0.1.0",
+  "description": "Play clipboard URLs in mpv with video, audio-only, and stop controls.",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "BarWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "Clipboard MPV",
+    "category": "Media",
+    "allowMultiple": false
+  },
+  "author": "nivagator"
+}
